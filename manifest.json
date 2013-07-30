@@ -3,7 +3,7 @@
 
   "name": "DMR Bypass Paywall",
   "description": "Browse DMR website without the annoying paywall notifications",
-  "version": "0.8",
+  "version": "1.0",
 
   "permissions": [
     "cookies", "tabs", "http://*/*", "https://*/*"
@@ -12,7 +12,7 @@
     "scripts": ["background.js"]
   },
   "content_scripts": [{
-    "matches": ["http://www.desmoinesregister.com/*", "http://blogs.desmoinesregister.com/*" ]
-    "css" : ["front.css"]
+    "matches": ["http://www.desmoinesregister.com/*", "http://blogs.desmoinesregister.com/*"],
+    "css": ["front.css"]
   }]
 }
