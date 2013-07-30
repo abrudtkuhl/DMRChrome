@@ -3,7 +3,7 @@
 
   "name": "DMR Bypass Paywall",
   "description": "Browse DMR website without the annoying paywall notifications",
-  "version": "0.5",
+  "version": "0.8",
 
   "permissions": [
     "cookies", "tabs", "http://*/*", "https://*/*"
