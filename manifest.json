@@ -12,8 +12,7 @@
     "scripts": ["background.js"]
   },
   "content_scripts": [{
-    "matches": ["http://www.desmoinesregister.com/*"],
-    "js": ["jquery-2.0.3.min.js", "front.js"],
+    "matches": ["http://www.desmoinesregister.com/*", "http://blogs.desmoinesregister.com/*" ]
     "css" : ["front.css"]
   }]
 }
