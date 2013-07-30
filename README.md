@@ -7,3 +7,6 @@ A Chrome extension to bypass DMR paywall and hides notifications
 3. Select Tools > Extensions
 4. Locate the extension file on your computer and drag the file onto the Extensions page
 5. Review the list of permissions in the dialog that appears. If you would like to proceed, click *Install*
+
+#Questions? Comments? Issues?#
+Log them on Github at https://github.com/abrudtkuhl/DMRChrome/issues
